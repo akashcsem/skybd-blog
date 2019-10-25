@@ -32,6 +32,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
+        $slug = "akash/not";
         return view('admin.category.create');
     }
 
